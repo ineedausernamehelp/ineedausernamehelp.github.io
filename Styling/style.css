@@ -4,6 +4,7 @@
 }
 body{
     background-color: #202030;
+    height: 100%    ;
 }
 /* header */
 header{
@@ -19,9 +20,18 @@ header{
 .header-links{
     font-family: 'Open Sans', sans-serif;
     color: #FDFFFC;
-    font-size: large;
+    font-size: larger;
 }
 .logo-styling{
-    height: 2%;
-    width: 7.5%;
+    height: 4%;
+    width: 10%;
+}
+
+/* main */
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
