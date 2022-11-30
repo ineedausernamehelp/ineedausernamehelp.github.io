@@ -5,3 +5,10 @@
 body{
     background-color: #202030;
 }
+header{
+    height: 100%;
+}
+.header-links{
+    font-family: 'Open Sans', sans-serif;
+    color: #FDFFFC;
+}
