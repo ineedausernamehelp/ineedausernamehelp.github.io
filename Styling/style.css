@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-body, html{
+html, body{
     background-color: #202030;
     height: 100%;
 }
@@ -29,11 +29,13 @@ a{
 }
 
 /* main */
+main{
+    height: 90%;
+}
 
-.main{
+.main-container{
     display: flex;
     flex-direction: column;
-    height: 100%;
 }
 .zelf-foto-container{
     display: flex;
@@ -43,4 +45,5 @@ a{
 }
 .zelf-foto{
     height: 50%;
+    width: 20%  ;
 }
