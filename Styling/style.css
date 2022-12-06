@@ -4,7 +4,10 @@
 }
 html, body{
     background-color: #202030;
+    color: #FDFFFC;
     height: 100%;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
 }
 /* header */
 header{
@@ -18,7 +21,6 @@ header{
     align-items: center;
 }
 a{
-    font-family: 'Open Sans', sans-serif;
     color: #FDFFFC;
     font-size: larger;
     text-decoration: none;
@@ -35,15 +37,38 @@ main{
 
 .main-container{
     display: flex;
-    flex-direction: column;
+    height: 100%;
 }
+
+/* frontpage */
+
+.frontpage-informatie-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+}
+
+.titel-frontpage{
+    color: #FF1B1C;
+}
+.informatie-frontpage{
+    margin-left: 7%;
+}
+.over-mijzelf-tekst{
+    width: 40%;
+}
+
 .zelf-foto-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
+    width: 50%;
 }
 .zelf-foto{
-    height: 50%;
-    width: 20%  ;
+    height: 70%;
+    width: 45%  ;
+    margin-right: 20%;
 }
