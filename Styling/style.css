@@ -50,7 +50,7 @@ main{
     width: 50%;
 }
 
-.titel-frontpage{
+.rode-tekst{
     color: #FF1B1C;
 }
 .informatie-frontpage{
@@ -79,4 +79,28 @@ main{
     margin-right: 35%;
     border-radius: 50%;
     background-color: #39304A;
+}
+
+/* contact form */
+
+form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5%;
+    width: 100%;
+
+}
+
+.kleine-boxes{
+    height: 10%;
+    width: 30%;
+
+}
+.grote-box{
+
+}
+.submit-knop{
+
 }
