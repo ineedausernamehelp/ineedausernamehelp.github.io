@@ -72,3 +72,11 @@ main{
     width: 45%  ;
     margin-right: 20%;
 }
+.zelf-foto-filling{
+   position: relative;
+    width: 100px;
+    height: 100px;
+    margin-right: 35%;
+    border-radius: 50%;
+    background-color: #39304A;
+}
