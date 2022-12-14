@@ -25,6 +25,9 @@ a{
     font-size: larger;
     text-decoration: none;
 }
+.op-pagina-links{
+    text-decoration: underline;
+}
 .logo-styling{
     height: 100%;
     width: 10%;
@@ -121,5 +124,24 @@ form{
     border: 0.5px solid #BFB1C1;
     border-radius: 1%;
     color: #FDFFFC;   
+
+}
+/* work-about page */
+
+.work-about-flex{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.work-about-blokken{
+    background-color: #39304A;
+    width: 25%;
+    height: 75%;
+    border: 0.5px solid #BFB1C1;
+    border-radius: 1%;
+
 
 }
