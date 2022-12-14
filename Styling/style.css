@@ -84,23 +84,42 @@ main{
 /* contact form */
 
 form{
-    height: 100%;
+    height: 90%;
+    margin-top: 2%;
     display: flex;
     flex-direction: column;
     align-items: center;
     row-gap: 5%;
     width: 100%;
+    justify-content: space-evenly;
 
 }
 
 .kleine-boxes{
     height: 10%;
     width: 30%;
+    background-color: #39304A;
+    border: 0.5px solid #BFB1C1;
+    border-radius: 1%;
+    color: #FDFFFC;
+
 
 }
 .grote-box{
+    height: 30%;
+    width: 30%;
+    background-color: #39304A;
+    border: 0.5px solid #BFB1C1;
+    border-radius: 1%;
+    color: #FDFFFC;
 
 }
 .submit-knop{
+    height: 7.5%;
+    width: 10%;
+    background-color: #39304A;
+    border: 0.5px solid #BFB1C1;
+    border-radius: 1%;
+    color: #FDFFFC;   
 
 }
