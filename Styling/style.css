@@ -57,10 +57,13 @@ main{
     color: #FF1B1C;
 }
 .informatie-frontpage{
-    margin-left: 7%;
+    margin-left: 25%;
 }
-.over-mijzelf-tekst{
+.over-mijzelf-styling{
     width: 40%;
+}
+.informatie-frontpage-text{
+    font-size: large;
 }
 
 .zelf-foto-container{
@@ -73,7 +76,7 @@ main{
 .zelf-foto{
     height: 70%;
     width: 45%  ;
-    margin-right: 20%;
+    margin-right: 25%;
 }
 .zelf-foto-filling{
    position: relative;
