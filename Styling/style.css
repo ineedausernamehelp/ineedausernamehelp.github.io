@@ -148,3 +148,46 @@ form{
 
 
 }
+.about-img{
+    width: 100%;
+    height: 100%;
+}
+.about-work-txt{
+    color: #FDFFFC;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2.5%;
+}
+
+/*talen*/
+
+.talen-blokken{
+    margin-top: 5% ;
+    background-color: #39304A;
+    width: 25%;
+    height: 65%;
+    border: 0.5px solid #BFB1C1;
+    border-radius: 1%;
+}
+
+
+.pijl-l{
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 40px solid green;
+    
+}
+.pijl-r{
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 40px solid green;
+}
+.pijlen-align{
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+}
