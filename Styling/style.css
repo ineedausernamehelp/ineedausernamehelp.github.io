@@ -176,7 +176,7 @@ form{
     height: 0;
     border-top: 30px solid transparent;
     border-bottom: 30px solid transparent;
-    border-right: 40px solid green;
+    border-right: 40px solid #39304A;
     
 }
 .pijl-r{
@@ -184,10 +184,15 @@ form{
     height: 0;
     border-top: 30px solid transparent;
     border-bottom: 30px solid transparent;
-    border-left: 40px solid green;
+    border-left: 40px solid #39304A;
 }
 .pijlen-align{
+    margin-top: 3%;
+    width: 12.5%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-self: flex-start;
+}
+.align-talen-text{
+    align-self: center;
 }
